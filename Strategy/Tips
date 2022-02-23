@@ -1,0 +1,14 @@
+﻿OO Basic
+    1. Abstraction
+    2. Encapsulation
+    3. Polymorphism
+    4. Inheritance
+
+OO Principle
+    1. DP: Identify the aspects of your application that vary and separate them from what stays the same.
+    2. DP: Program to an interface, not an implementation.
+    3. DP: Favor composition over inheritance.
+
+OO Patterns
+    The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+    Strategy  lets the algorithm vary independently from clients that use it.
