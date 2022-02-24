@@ -14,3 +14,6 @@ C:\projects\design-patterns\Strategy\obj\Debug\net5.0\Strategy.dll
 C:\projects\design-patterns\Strategy\obj\Debug\net5.0\ref\Strategy.dll
 C:\projects\design-patterns\Strategy\obj\Debug\net5.0\Strategy.pdb
 C:\projects\design-patterns\Strategy\obj\Debug\net5.0\Strategy.genruntimeconfig.cache
+C:\projects\design-patterns\Strategy\bin\Debug\net5.0\Patterns.dll
+C:\projects\design-patterns\Strategy\bin\Debug\net5.0\Patterns.pdb
+C:\projects\design-patterns\Strategy\obj\Debug\net5.0\Strategy.csproj.CopyComplete

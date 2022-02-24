@@ -1,4 +1,5 @@
-﻿using Strategy.EncapsulatedFlyBehavior;
+﻿using Patterns.Strategy;
+using Patterns.Strategy.EncapsulatedFlyBehavior;
 
 namespace Strategy
 {

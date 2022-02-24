@@ -1,0 +1,12 @@
+C:\projects\design-patterns\Patterns\bin\Debug\net5.0\Patterns.deps.json
+C:\projects\design-patterns\Patterns\bin\Debug\net5.0\Patterns.dll
+C:\projects\design-patterns\Patterns\bin\Debug\net5.0\ref\Patterns.dll
+C:\projects\design-patterns\Patterns\bin\Debug\net5.0\Patterns.pdb
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.csproj.AssemblyReference.cache
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.AssemblyInfoInputs.cache
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.AssemblyInfo.cs
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.csproj.CoreCompileInputs.cache
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.dll
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\ref\Patterns.dll
+C:\projects\design-patterns\Patterns\obj\Debug\net5.0\Patterns.pdb
