@@ -1,0 +1,6 @@
+﻿DP:
+    Classes should be open for extension, but closed for modification.
+    
+OO Pattern:
+    The decorator pattern attach additional responsabilities to an object dynamically. 
+    Decorators provide a flexible alternative to subclassing for extending functionality.
