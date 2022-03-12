@@ -8,8 +8,8 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            // Beverage beverage = new Expresso();
-            // Console.WriteLine($"{beverage.GetDescription()}$ {beverage.Cost()}");
+            Beverage beverage = new Expresso();
+            Console.WriteLine($"{beverage.GetDescription()}$ {beverage.Cost()}");
 
             Beverage beverage2 = new Expresso();
             beverage2 = new Mocha(beverage2);

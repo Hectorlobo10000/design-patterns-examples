@@ -1,24 +1,22 @@
-﻿using System;
-
-namespace Patterns.Decorator
+﻿namespace Patterns.Decorator
 {
-    public class Mocha : CondimentDecorator
+    public class Soy : CondimentDecorator
     {
         protected Beverage _beverage;
 
-        public Mocha(Beverage beverage)
+        public Soy(Beverage beverage)
         {
             _beverage = beverage;
         }
 
         public override string GetDescriptionCondimentDecorator()
         {
-            return _beverage.GetDescription() + ", Mocha";
+            return _beverage.GetDescription() + ", Soy";
         }
 
         public override double Cost()
         {
-            return 0.20 + _beverage.Cost();
+            return 0.10 + _beverage.Cost();
         }
     }
 }
