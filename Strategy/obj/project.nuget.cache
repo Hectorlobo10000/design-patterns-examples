@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "30VOSlCHNWWpwEfXZkT+nJ6LcEbihaGfhVfQIHBPdUerIEQc6coWFFNmR5x4CzIDQEPWV3Ad9o6OBW6GJTi0jg==",
+  "dgSpecHash": "0MrmPdoWEh4lrxANSWbj8uZMTkWoAWz7S144TNvvwqjy3xvwiq5fq5glc+L0e0oDSRtT8wjedFEOWltd0aAHZg==",
   "success": true,
-  "projectFilePath": "C:\\projects\\design-patterns\\Strategy\\Strategy.csproj",
+  "projectFilePath": "/home/mrrobot/Documents/projects/design-patterns-examples/Strategy/Strategy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

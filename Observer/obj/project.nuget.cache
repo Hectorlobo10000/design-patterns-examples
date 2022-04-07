@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oh1JAzdV3tifT+RO1NfYVAplAI0SDkfOIauyN/p9DFSr3RXY5gw0cGMJc1B9Y0MRsKazzSEfvG6wkS5Eq7FjiQ==",
+  "dgSpecHash": "bUxZMuJCJjcL6jjO8pi1eJhP9rHGyEeRmR4W/2KSs+EtncDWFOGeY+T3DiREp4ijDfCcMslIzI4clrR03mOXCQ==",
   "success": true,
-  "projectFilePath": "C:\\projects\\design-patterns\\Observer\\Observer.csproj",
+  "projectFilePath": "/home/mrrobot/Documents/projects/design-patterns-examples/Observer/Observer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

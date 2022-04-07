@@ -9,7 +9,7 @@
             _beverage = beverage;
         }
 
-        public override string GetDescriptionCondimentDecorator()
+        public override string GetDescription()
         {
             return _beverage.GetDescription() + ", whip";
         }

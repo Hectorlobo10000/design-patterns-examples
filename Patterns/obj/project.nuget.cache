@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S45CCHqnxQjKn1UzoripWiRLd+sEqS3JPh4FXxycEBRuhHhmOhjxkhjqePFhSjNIyNv4z7N92KaF2VnlyEvtwQ==",
+  "dgSpecHash": "CWR6u7MO2FdfQZOb5vjaD0oq+QRPTYj34F5nw72MVzMgi77xUG9HCAsC0wVHO6xUnt2IxilzwUxIg9NK9LjL0A==",
   "success": true,
-  "projectFilePath": "C:\\projects\\design-patterns\\Patterns\\Patterns.csproj",
+  "projectFilePath": "/home/mrrobot/Documents/projects/design-patterns-examples/Patterns/Patterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

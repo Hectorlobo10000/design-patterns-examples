@@ -2,6 +2,6 @@
 {
     public abstract class CondimentDecorator : Beverage
     {
-        public new abstract string GetDescriptionCondimentDecorator();
+        public abstract override string GetDescription();
     }
 }

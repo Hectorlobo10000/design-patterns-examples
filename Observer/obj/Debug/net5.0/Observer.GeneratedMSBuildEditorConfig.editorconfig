@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Observer
-build_property.ProjectDir = C:\projects\design-patterns\Observer\
+build_property.ProjectDir = /home/mrrobot/Documents/projects/design-patterns-examples/Observer/
