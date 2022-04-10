@@ -1,25 +1,27 @@
+using System;
+
 namespace Patterns.Factory.SimpleFactory
 {
     public class PepperoniePizza : IPizza
     {
-        public string Prepare()
+        public void Prepare()
         {
-            return "prepare";
+            Console.WriteLine("prepare");
         }
 
-        public string Bake()
+        public void Bake()
         {
-            return "bake";
+            Console.WriteLine("bake");
         }
 
-        public string Cut()
+        public void Cut()
         {
-            return "cut";
+            Console.WriteLine("cut");
         }
 
-        public string Box()
+        public void Box()
         {
-            return "box";
+            Console.WriteLine("box");
         }
     }
 }
