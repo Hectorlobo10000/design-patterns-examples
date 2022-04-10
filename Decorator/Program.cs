@@ -13,8 +13,8 @@ namespace Decorator
 
             Beverage beverage2 = new Expresso();
             beverage2 = new Mocha(beverage2);
-            // beverage2 = new Mocha(beverage2);
-            Console.WriteLine($"{beverage2.GetDescription()}$ {beverage2.Cost()}");
+            beverage2 = new Mocha(beverage2);
+            Console.WriteLine($"{beverage2.GetDescription()} ${beverage2.Cost()}");
         }
     }
 }
