@@ -13,5 +13,10 @@ namespace Patterns.Command.ComplexCommandImplementation
         {
             _light.Off();
         }
+
+        public void Undo()
+        {
+            _light.On();
+        }
     }
 }

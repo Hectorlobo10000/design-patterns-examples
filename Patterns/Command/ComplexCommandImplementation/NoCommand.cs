@@ -6,5 +6,10 @@ namespace Patterns.Command.ComplexCommandImplementation
         {
             
         }
+
+        public void Undo()
+        {
+            
+        }
     }
 }

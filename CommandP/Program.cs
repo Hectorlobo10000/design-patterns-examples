@@ -36,6 +36,7 @@ namespace CommandP
             remoteControl.OffButtonWasPushed(0);
             remoteControl.OnButtonWasPushed(1);
             remoteControl.OffButtonWasPushed(1);
+            remoteControl.UndoButtonWasPushed(1);
 
         }
     }

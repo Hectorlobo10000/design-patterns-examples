@@ -15,5 +15,10 @@ namespace Patterns.Command.ComplexCommandImplementation
             _stereo.SetCd();
             _stereo.SetVolume(15);
         }
+
+        public void Undo()
+        {
+            _stereo.Off();
+        }
     }
 }
