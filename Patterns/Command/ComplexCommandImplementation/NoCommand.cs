@@ -1,0 +1,10 @@
+namespace Patterns.Command.ComplexCommandImplementation
+{
+    public class NoCommand : ICommand
+    {
+        public void Execute()
+        {
+            
+        }
+    }
+}
