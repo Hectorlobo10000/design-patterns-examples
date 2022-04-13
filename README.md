@@ -1,3 +1,3 @@
 # design-patterns-examples
 
-## Implementation of design patterns
+## popular design patterns and their implementation
