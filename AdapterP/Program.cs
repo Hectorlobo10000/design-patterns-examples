@@ -1,6 +1,9 @@
 ﻿using System;
 using Patterns.Adapter.SimpleAdapter;
 
+//the adapter pattern converts the interface of a class into another interface the clients expect.
+// adapter lets classes work together that couldn't otherwise because of incompatible interfaces
+
 namespace AdapterP
 {
     class Program
