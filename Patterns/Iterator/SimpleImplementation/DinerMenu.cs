@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Patterns.Iterator.SimpleImplementation
 {
-    public class DinerMenu
+    public class DinerMenu : IMenu
     {
         private static int MAX_ITEMS = 6;
         private int numberOfItems = 0;

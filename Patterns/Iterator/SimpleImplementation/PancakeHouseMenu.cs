@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Patterns.Iterator.SimpleImplementation
 {
-    public class PancakeHouseMenu
+    public class PancakeHouseMenu : IMenu
     {
         private List<MenuItem> _menuItems;
 
