@@ -44,7 +44,6 @@ namespace Patterns.CompositeP.SimpleImplementation
         public override void Print()
         {
             Console.WriteLine($"\n {GetName()}, {GetDescription()}--------------------------");
-
             foreach (var menuComponent in _menuComponents)
             {
                 menuComponent.Print();

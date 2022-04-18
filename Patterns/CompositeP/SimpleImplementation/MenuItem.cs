@@ -39,10 +39,7 @@ namespace Patterns.CompositeP.SimpleImplementation
 
         public override void Print()
         {
-            Console.WriteLine($" {GetName()}");
-            if (IsVegetarian()) Console.WriteLine($"(v)");
-            Console.WriteLine($", {GetPrice()}");
-            Console.WriteLine($"    -- {GetDescription()}");
+            Console.WriteLine($" {GetName()} {(IsVegetarian() ? "(v)" : "")}, {GetPrice()}    -- {GetDescription()}");
         }
     }
 }
