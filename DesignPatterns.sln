@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateP", "StateP\StateP.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{9770787D-F6C9-4457-AD91-DCC2091DD907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternsOfPatternsSimulator", "PatternsOfPatternsSimulator\PatternsOfPatternsSimulator.csproj", "{7A0DF589-AC2D-49EE-B6D0-DEAACEC9812D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{9770787D-F6C9-4457-AD91-DCC2091DD907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9770787D-F6C9-4457-AD91-DCC2091DD907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9770787D-F6C9-4457-AD91-DCC2091DD907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0DF589-AC2D-49EE-B6D0-DEAACEC9812D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0DF589-AC2D-49EE-B6D0-DEAACEC9812D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0DF589-AC2D-49EE-B6D0-DEAACEC9812D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0DF589-AC2D-49EE-B6D0-DEAACEC9812D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
