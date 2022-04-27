@@ -8,7 +8,8 @@ namespace PatternsOfPatternsSimulator
         static void Main(string[] args)
         {
             var simulator = new DuckSimulator();
-            simulator.Simulate();
+            var duckFactory = new CountingDuckFactory();
+            simulator.Simulate(duckFactory);
         }
     }
 }

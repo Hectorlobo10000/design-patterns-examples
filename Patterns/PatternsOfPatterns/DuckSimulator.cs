@@ -4,12 +4,12 @@ namespace Patterns.PatternsOfPatterns
 {
     public class DuckSimulator
     {
-        public void Simulate()
+        public void Simulate(AbstractDuckFactory duckFactory)
         {
-            var mallardDuck = new QuackCounter(new MallardDuck());
-            var redheadDuck = new QuackCounter(new RedheadDuck());
-            var duckCall = new QuackCounter(new DuckCall());
-            var rubberDuck = new QuackCounter(new RubberDuck());
+            var mallardDuck = duckFactory.CreateMallardDuck();
+            var redheadDuck = duckFactory.CreateRedheadDuck();
+            var duckCall = duckFactory.CreateDuckCall();
+            var rubberDuck = duckFactory.CreateRubberDuck();
             var gooseDuck = new GooseAdapter(new Goose());
             
             Console.WriteLine("\nDuck Simulator");
