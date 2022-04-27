@@ -10,6 +10,7 @@ namespace Patterns.PatternsOfPatterns
             var redheadDuck = new RedheadDuck();
             var duckCall = new DuckCall();
             var rubberDuck = new RubberDuck();
+            var gooseDuck = new GooseAdapter(new Goose());
             
             Console.WriteLine("\nDuck Simulator");
             
@@ -17,6 +18,7 @@ namespace Patterns.PatternsOfPatterns
             Simulate(redheadDuck);
             Simulate(duckCall);
             Simulate(rubberDuck);
+            Simulate(gooseDuck);
         }
 
         public void Simulate(IQuackable duck)
