@@ -1,3 +1,18 @@
-# design-patterns-examples
+# Design patterns
 
-## popular design patterns and their implementation
+- Adapter
+- Command
+- Composite
+- Decorator
+- Facade
+- Factory
+- Iterator
+- Observer
+- Proxy
+- Singleton
+- State
+- Strategy
+- Template Method
+
+
+####Note: Implementation in C# language.
