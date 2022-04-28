@@ -12,7 +12,7 @@ namespace Patterns.PatternsOfPatterns
             var rubberDuck = duckFactory.CreateRubberDuck();
             var gooseDuck = new GooseAdapter(new Goose());
             
-            Console.WriteLine("\nDuck Simulator: with composite - flocks");
+            // Console.WriteLine("\nDuck Simulator: with composite - flocks");
 
             var flockOfDucks = new Flock();
             
@@ -20,6 +20,7 @@ namespace Patterns.PatternsOfPatterns
             flockOfDucks.Add(duckCall);
             flockOfDucks.Add(rubberDuck);
             flockOfDucks.Add(gooseDuck);
+            // flockOfDucks.Add(mallardDuck);
 
             var flockOfMallards = new Flock();
 
@@ -35,11 +36,17 @@ namespace Patterns.PatternsOfPatterns
             
             flockOfDucks.Add(flockOfMallards);
             
-            Console.WriteLine("\nDuck SImulator: whole flock simulation");
+            Console.WriteLine("\nDuck Simulator: with observer");
+            var quackologist = new Quackologists();
+            flockOfDucks.RegisterObserver(quackologist);
+            
             Simulate(flockOfDucks);
             
-            Console.WriteLine("\nDuck Simulator: Mallard flock simulation");
-            Simulate(flockOfMallards);
+            // Console.WriteLine("\nDuck SImulator: whole flock simulation");
+            // Simulate(flockOfDucks);
+            //
+            // Console.WriteLine("\nDuck Simulator: Mallard flock simulation");
+            // Simulate(flockOfMallards);
             
             Console.WriteLine($"the ducks quacked {QuackCounter.GetQuacks()} times");
         }

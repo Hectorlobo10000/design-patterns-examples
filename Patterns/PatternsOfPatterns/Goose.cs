@@ -8,5 +8,10 @@ namespace Patterns.PatternsOfPatterns
         {
             Console.WriteLine("HOnk");
         }
+
+        public override string ToString()
+        {
+            return "goose";
+        }
     }
 }

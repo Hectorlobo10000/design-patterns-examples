@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Patterns.PatternsOfPatterns
@@ -17,6 +18,19 @@ namespace Patterns.PatternsOfPatterns
             {
                 quacker.Quack();
             }
+        }
+
+        public void RegisterObserver(IObserver observer)
+        {
+            foreach (var quacker in _quackers)
+            {
+                quacker.RegisterObserver(observer);
+            }
+        }
+
+        public void NotifyObservers()
+        {
+            throw new ArgumentException("nothing");
         }
     }
 }
