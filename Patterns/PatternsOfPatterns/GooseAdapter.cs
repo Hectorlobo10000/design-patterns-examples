@@ -26,5 +26,10 @@ namespace Patterns.PatternsOfPatterns
         {
             _observable.NotifyObservers();
         }
+
+        public override string ToString()
+        {
+            return "goose";
+        }
     }
 }
